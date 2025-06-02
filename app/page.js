@@ -45,7 +45,9 @@ export default function Home() {
       <section ref={aboutRef} className="py-20 px-6 max-w-4xl mx-auto" id="about">
         <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
         <p className="text-lg leading-8 text-justify">
-          My journey in Computer Science began in Lahore, Pakistan, where I first encountered programming through Visual Basic during my O Levels in 2018. What started as a curiosity quickly became a passion, I was captivated by logic, structure, and the creative potential of code. In A Levels, I deepened my skills in computer science, working through problem-solving, binary systems, file compression, and algorithm design using pseudocode. This early foundation shaped my decision to pursue my academic path at the University of Toronto, where I’m majoring in Mathematical Sciences with minors in Computer Science and Statistics. I continue to strengthen this foundation through coursework and hands-on projects that challenge me to think critically and solve real-world problems.
+          My journey in Computer Science began in Lahore, Pakistan, where I first encountered programming through Visual Basic during my O Levels in 2018. What started as a curiosity quickly became a passion, I was captivated by logic, structure, and the creative potential of code. In A Levels, I deepened my skills in computer science, working through problem-solving, binary systems, file compression, and algorithm design using pseudocode. This early foundation shaped my decision to pursue my academic path at the University of Toronto, where I’m majoring in Mathematical Sciences with minors in Computer Science and Statistics. I continue to strengthen this foundation through coursework and hands-on projects that challenge me to think critically and solve real-world problems. 
+          
+          Outside of academics, I find creative joy in photography and digital editing. I’ve worked in Pakistan as a product photographer, styling and capturing visual content for local businesses to help elevate their branding. I especially enjoy experimenting with lighting, composition, and color theory to create images that are both visually appealing and strategically designed. Photography has become a powerful outlet for self-expression and allows me to blend technical precision with artistic vision.
         </p>
       </section>
 
@@ -283,10 +285,9 @@ export default function Home() {
     </details>
 
     <details className="group border-l-4 border-black bg-gray-50 px-4 py-3">
-      <summary className="cursor-pointer text-lg font-semibold">CCT270: Programming with Data</summary>
+      <summary className="cursor-pointer text-lg font-semibold">CCT305: Design and Implementation of Multimedia Documents</summary>
       <p className="mt-2 text-sm text-gray-700">
-        Applied Python to data analysis and visualization tasks. Explored libraries like pandas, matplotlib, and NumPy for working with structured datasets. Built interactive dashboards and interpreted results.
-      </p>
+      The principles and techniques of user-centered, functional design are introduced and applied to the analysis of software interfaces and the creation of multimedia documents. The roles of shared metaphors and mental models in clear, concise, and usable designs are emphasized. Students produced multimedia documents that effectively integrated text, color, user input, audio, and time-based visuals.      </p>
     </details>
   </div>
 </section>
@@ -321,32 +322,6 @@ export default function Home() {
     </a>
   </div>
 </section>
-{/* Sticky Navbar */}
-<header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-  <nav className="flex justify-between items-center max-w-6xl mx-auto px-6 py-4">
-    <h1 className="text-xl font-bold tracking-tight">Zoya Rehan</h1>
-    <ul className="flex gap-6 text-sm font-medium text-gray-700">
-      <li>
-        <a href="#about" className="hover:text-black transition">About</a>
-      </li>
-      <li>
-        <a href="#projects" className="hover:text-black transition">Projects</a>
-      </li>
-      <li>
-        <a href="#education" className="hover:text-black transition">Education</a>
-      </li>
-      <li>
-        <a href="#skills" className="hover:text-black transition">Skills</a>
-      </li>
-      <li>
-        <a href="#courses" className="hover:text-black transition">Courses</a>
-      </li>
-      <li>
-        <a href="#contact" className="hover:text-black transition">Contact</a>
-      </li>
-    </ul>
-  </nav>
-</header>
 
 
       
