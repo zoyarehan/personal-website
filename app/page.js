@@ -47,8 +47,11 @@ export default function Home() {
         <p className="text-lg leading-8 text-justify">
           My journey in Computer Science began in Lahore, Pakistan, where I first encountered programming through Visual Basic during my O Levels in 2018. What started as a curiosity quickly became a passion, I was captivated by logic, structure, and the creative potential of code. In A Levels, I deepened my skills in computer science, working through problem-solving, binary systems, file compression, and algorithm design using pseudocode. This early foundation shaped my decision to pursue my academic path at the University of Toronto, where I’m majoring in Mathematical Sciences with minors in Computer Science and Statistics. I continue to strengthen this foundation through coursework and hands-on projects that challenge me to think critically and solve real-world problems. 
           
-          Outside of academics, I find creative joy in photography and digital editing. I’ve worked in Pakistan as a product photographer, styling and capturing visual content for local businesses to help elevate their branding. I especially enjoy experimenting with lighting, composition, and color theory to create images that are both visually appealing and strategically designed. Photography has become a powerful outlet for self-expression and allows me to blend technical precision with artistic vision.
-        </p>
+          </p>
+
+  <p className="text-lg leading-8 text-justify">
+    Outside of academics, I find creative joy in photography and digital editing. I’ve worked in Pakistan as a product photographer, styling and capturing visual content for local businesses to help elevate their branding. I especially enjoy experimenting with lighting, composition, and color theory to create images that are both visually appealing and strategically designed. Photography has become a powerful outlet for self-expression and allows me to blend technical precision with artistic vision.
+  </p>
       </section>
 
       {/* Education Section */}
